@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "culiatum_economy:gold_coin"
+		}
+	],
+	"result": {
+		"id": "culiatum_economy:silver_coin",
+		"count": 9
+	},
+	"fabric:load_conditions": [
+		{
+			"condition": "culiatum_economy:recipe_enabled",
+			"recipe_key": "gold"
+		}
+	]
+}

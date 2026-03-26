@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"SSS",
+		"SSS",
+		"SSS"
+	],
+	"key": {
+		"S": {
+			"item": "culiatum_economy:silver_coin"
+		}
+	},
+	"result": {
+		"id": "culiatum_economy:gold_coin",
+		"count": 1
+	},
+	"fabric:load_conditions": [
+		{
+			"condition": "culiatum_economy:recipe_enabled",
+			"recipe_key": "gold"
+		}
+	]
+}
