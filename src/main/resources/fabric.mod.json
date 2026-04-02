@@ -5,7 +5,7 @@
 	"name": "${mod_name}",
 	"description": "Agrega la moneda Culiatum Coin para iniciar una economia basada en items y usarla con NPCs.",
 	"authors": [
-		"EQUIPO"
+		"${mod_author}"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/"

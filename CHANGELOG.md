@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1
+
+- Refreshed packaged coin textures
+- Rebuilt release jar for distribution
+
 ## 1.1.0
 
 - Added copper, silver, gold, and Culiatum coin denominations

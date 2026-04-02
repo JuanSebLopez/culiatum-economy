@@ -43,3 +43,4 @@ replay_*.log
 # local secrets
 
 .env
+*.dat

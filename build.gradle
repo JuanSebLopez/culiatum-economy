@@ -76,12 +76,14 @@ processResources {
 	inputs.property "version", project.version
 	inputs.property "mod_name", project.mod_name
 	inputs.property "mod_id", project.mod_id
+	inputs.property "mod_author", project.mod_author
 
 	filesMatching("fabric.mod.json") {
 		expand(
 			"version": inputs.properties.version,
 			"mod_name": inputs.properties.mod_name,
-			"mod_id": inputs.properties.mod_id
+			"mod_id": inputs.properties.mod_id,
+			"mod_author": inputs.properties.mod_author
 		)
 	}
 }
@@ -155,6 +157,7 @@ tasks.register("printReleaseInfo") {
 	doLast {
 		println "Name: ${project.mod_name}"
 		println "Mod ID: ${project.mod_id}"
+		println "Author: ${project.mod_author}"
 		println "Version: ${project.version}"
 		println "Minecraft: ${project.minecraft_version}"
 		println "Loader: fabric"
