@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.2
+
+- Fixed coin texture packaging for the corrected art assets
+- Updated release metadata shown in Mod Menu
+
 ## 1.1.1
 
 - Refreshed packaged coin textures
